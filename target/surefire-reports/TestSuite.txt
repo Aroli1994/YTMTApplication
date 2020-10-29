@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.424 s <<< FAILURE! - in TestSuite
+com.qa.ytmt.testcases.TC_LoginPageTest_001.loginTest  Time elapsed: 10.867 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('Tenjin Test Manager') to be present in element Proxy element for: DefaultElementLocator 'By.xpath: //nav[@id='sidebar']//div[1]/div[1]/a/span' (tried for 10 second(s) with 500 milliseconds interval)
+	at com.qa.ytmt.testcases.TC_LoginPageTest_001.loginTest(TC_LoginPageTest_001.java:19)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//nav[@id='sidebar']//div[1]/div[1]/a/span"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YCSLAP0240', ip: '192.168.8.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\VINAYA~1.YCS\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:24972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab5ae77668abe2aa6e415f6fdd88a642
+*** Element info: {Using=xpath, value=//nav[@id='sidebar']//div[1]/div[1]/a/span}
+	at com.qa.ytmt.testcases.TC_LoginPageTest_001.loginTest(TC_LoginPageTest_001.java:19)
+

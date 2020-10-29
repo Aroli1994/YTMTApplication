@@ -1,0 +1,6 @@
+com\qa\ytmt\testcases\TC_LoginPageTest_001.class
+com\qa\ytmt\utilities\ReadConfig.class
+com\qa\ytmt\testcases\TC_ClientPageTest_002.class
+com\qa\ytmt\pageobjects\ClientPage.class
+com\qa\ytmt\pageobjects\LoginPage.class
+com\qa\ytmt\testcases\BaseClass.class
